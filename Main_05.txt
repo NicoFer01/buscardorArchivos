@@ -1,0 +1,10 @@
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>  & 'C:\Program Files\Java\jdk-20\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\admin\AppData\Roaming\Code\User\workspaceStorage\04fa47ca35591ed07bfbd084e24b065f\redhat.java\jdt_ws\Trabajos en Java_876168ee\bin' 'Main_05'
+java.nio.file.NoSuchFileException: \path\to\dir
+        at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+        at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+        at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+        at java.base/sun.nio.fs.WindowsDirectoryStream.<init>(WindowsDirectoryStream.java:86)
+        at java.base/sun.nio.fs.WindowsFileSystemProvider.newDirectoryStream(WindowsFileSystemProvider.java:541)
+        at java.base/java.nio.file.Files.newDirectoryStream(Files.java:613)
+        at Main_05.main(Main_05.java:11)
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>
