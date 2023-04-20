@@ -1,0 +1,3 @@
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>  & 'C:\Program Files\Java\jdk-20\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\admin\AppData\Roaming\Code\User\workspaceStorage\04fa47ca35591ed07bfbd084e24b065f\redhat.java\jdt_ws\Trabajos en Java_876168ee\bin' 'Main_02'
+null
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>
