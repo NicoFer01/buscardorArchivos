@@ -1,0 +1,5 @@
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>  & 'C:\Program Files\Java\jdk-20\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\admin\AppData\Roaming\Code\User\workspaceStorage\04fa47ca35591ed07bfbd084e24b065f\redhat.java\jdt_ws\Trabajos en Java_876168ee\bin' 'buscadorMain'
+Exception in thread "main" java.lang.NullPointerException: Cannot read the array length because "archivos" is null
+        at buscadorMain.buscar(buscadorMain.java:11)
+        at buscadorMain.main(buscadorMain.java:6)
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>
