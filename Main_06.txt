@@ -1,0 +1,18 @@
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>  & 'C:\Program Files\Java\jdk-20\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\admin\AppData\Roaming\Code\User\workspaceStorage\04fa47ca35591ed07bfbd084e24b065f\redhat.java\jdt_ws\Trabajos en Java_876168ee\bin' 'Main_06'
+Exception in thread "main" java.nio.file.NoSuchFileException: \path\to\dir
+        at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+        at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+        at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+        at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+
+        at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+
+        at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:197)
+        at java.base/java.nio.file.Files.readAttributes(Files.java:1848)
+        at java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)
+        at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)
+        at java.base/java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:323)
+        at java.base/java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:71)
+        at java.base/java.nio.file.Files.walk(Files.java:3893)
+        at Main_06.main(Main_06.java:12)
+PS C:\Users\admin\Desktop\Trabajos\Videojuegos para móviles\Trabajos en Java>
